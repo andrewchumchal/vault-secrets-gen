@@ -7,8 +7,8 @@ GIT_COMMIT = $(shell git rev-parse --short HEAD)
 LD_FLAGS = \
 	-s \
 	-w \
-	-X github.com/sethvargo/vault-secrets-gen/version.Name=vault-secrets-gen \
-	-X github.com/sethvargo/vault-secrets-gen/version.GitCommit=${GIT_COMMIT}
+	-X github.com/andrewchumchal/vault-secrets-gen/version.Name=vault-secrets-gen \
+	-X github.com/andrewchumchal/vault-secrets-gen/version.GitCommit=${GIT_COMMIT}
 
 benchmarks:
 	@(cd benchmarks/ && go test -bench=. -benchmem -benchtime=1s ./...)
