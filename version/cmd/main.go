@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	version "github.com/sethvargo/vault-secrets-gen/version"
+	version "github.com/andrewchumchal/vault-secrets-gen/version"
 )
 
 func main() {
