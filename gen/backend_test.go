@@ -6,7 +6,7 @@ import (
 	"testing"
 
 	"github.com/hashicorp/vault/sdk/logical"
-	"github.com/sethvargo/vault-secrets-gen/version"
+	"github.com/andrewchumchal/vault-secrets-gen/version"
 )
 
 func testBackend(tb testing.TB) (*backend, logical.Storage) {
