@@ -5,7 +5,7 @@ import (
 
 	"github.com/hashicorp/vault/sdk/framework"
 	"github.com/hashicorp/vault/sdk/logical"
-	"github.com/sethvargo/vault-secrets-gen/version"
+	"github.com/andrewchumchal/vault-secrets-gen/version"
 )
 
 // pathInfo corresponds to READ gen/info.
