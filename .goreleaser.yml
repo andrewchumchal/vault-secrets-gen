@@ -8,7 +8,7 @@ builds:
   flags:
     - '-trimpath'
   ldflags:
-    - '-s -w -X github.com/sethvargo/vault-secrets-gen/version.version={{.Version}} -X github.com/sethvargo/vault-secrets-gen/version.GitCommit={{.Commit}}'
+    - '-s -w -X github.com/andrewchumchal/vault-secrets-gen/version.version={{.Version}} -X github.com/andrewchumchal/vault-secrets-gen/version.GitCommit={{.Commit}}'
   targets:
     - 'darwin_amd64'
     - 'darwin_arm64'
