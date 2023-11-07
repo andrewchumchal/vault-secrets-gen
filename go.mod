@@ -1,4 +1,4 @@
-module github.com/sethvargo/vault-secrets-gen
+module github.com/andrewchumchal/vault-secrets-gen
 
 go 1.19
 
