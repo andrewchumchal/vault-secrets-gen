@@ -1,13 +1,13 @@
 module github.com/andrewchumchal/vault-secrets-gen
 
-go 1.19
+go 1.25
 
 require (
 	github.com/hashicorp/go-hclog v1.5.0
 	github.com/hashicorp/vault/api v1.10.0
 	github.com/hashicorp/vault/sdk v0.10.2
 	github.com/sethvargo/go-diceware v0.3.0
-	github.com/sethvargo/go-password v0.2.0
+	github.com/sethvargo/go-password v0.4.0
 )
 
 require (
