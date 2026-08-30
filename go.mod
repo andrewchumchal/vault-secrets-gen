@@ -3,7 +3,7 @@ module github.com/andrewchumchal/vault-secrets-gen
 go 1.19
 
 require (
-	github.com/hashicorp/go-hclog v1.5.0
+	github.com/hashicorp/go-hclog v1.6.3
 	github.com/hashicorp/vault/api v1.10.0
 	github.com/hashicorp/vault/sdk v0.10.2
 	github.com/sethvargo/go-diceware v0.3.0
